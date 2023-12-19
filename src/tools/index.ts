@@ -13,6 +13,8 @@ import { tool as emojiPicker } from './emoji-picker';
 import { tool as passwordStrengthAnalyser } from './password-strength-analyser';
 import { tool as yamlToToml } from './yaml-to-toml';
 import { tool as jsonToToml } from './json-to-toml';
+import { tool as jsonToGo } from './json-to-go';
+import { tool as jsonToJava } from './json-to-java';
 import { tool as tomlToYaml } from './toml-to-yaml';
 import { tool as tomlToJson } from './toml-to-json';
 import { tool as jsonToCsv } from './json-to-csv';
@@ -100,6 +102,8 @@ export const toolsByCategory: ToolCategory[] = [
       listConverter,
       tomlToJson,
       tomlToYaml,
+      jsonToGo,
+      jsonToJava
     ],
   },
   {
