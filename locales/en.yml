@@ -69,3 +69,15 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
+  bcrypt:
+    lable-string: 'Your string:'
+    bcrypt-string-placeholder: 'Your string to bcrypt...'
+    salt: 'Salt count:'
+    copy: 'Copy hash'
+    titel-2: 'Compare string with hash'
+    compare-string-placeholder: 'Your string to compare...'
+    lable-hase: 'Your hash:'
+    compare-hase-placeholder: 'Your hash to compare...'
+    compare: 'Do they match ?'
+    compare-yes: 'Yes'
+    compare-no: 'No'
