@@ -95,7 +95,7 @@ tools:
     bcrypt-string-placeholder: '要加密的字符串...'
     salt: '盐值：'
     copy: '复制'
-    titel-2: '比较字符串与Hash是否匹配'
+    title-2: '比较字符串与Hash是否匹配'
     compare-string-placeholder: '要比较的字符...'
     lable-hase: 'Hase值：'
     compare-hase-placeholder: '要比较的Hase值...'

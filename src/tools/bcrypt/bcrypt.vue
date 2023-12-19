@@ -41,7 +41,7 @@ const compareMatch = computed(() => compareSync(compareString.value, compareHash
     </div>
   </c-card>
 
-  <c-card :title="t('tools.bcrypt.titel-2')">
+  <c-card :title="t('tools.bcrypt.title-2')">
     <n-form label-width="120">
       <n-form-item :label="t('tools.bcrypt.lable-string')" label-placement="left">
         <c-input-text v-model:value="compareString" :placeholder="t('tools.bcrypt.compare-string-placeholder')" raw-text />
